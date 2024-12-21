@@ -118,9 +118,36 @@ main {
   font-size: 2rem;
 }
 
+.input-control {
+  width: 400px;
+  height: 30px;
+}
+
+fieldset {
+  margin-bottom: 1rem;
+  border-width: 0;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+}
+
+#submit {
+  width: 10rem;
+  height: 2rem;
+}
+
 #github-link {
   text-align: center;
   margin-top: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #profile-link {
