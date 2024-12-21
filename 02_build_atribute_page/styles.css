@@ -1,0 +1,46 @@
+#main {
+  min-width: 640px;
+}
+
+#notice {
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#title, #description, #img-caption, #footer {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#tribute-info {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+li{
+  margin: 10px 0;
+}
+
+
+#quotes-wrapper {
+  margin: 5rem 0;
+}
+
+.famous-quotes {
+  text-align: center;
+}
+
+footer{
+  margin: 2rem 0;
+}
