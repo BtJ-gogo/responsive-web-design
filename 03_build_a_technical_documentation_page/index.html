@@ -1,0 +1,96 @@
+<!DOCTYHPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML要素の基礎</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header><h3>HTML要素の基礎</h3></header>
+      <ul>
+        <li><a href="#html要素" class="nav-link">html要素</a></li>
+        <li><a href="#head要素" class="nav-link">head要素</a></li>
+        <li><a href="#title要素" class="nav-link">title要素</a></li>
+        <li><a href="#link要素" class="nav-link">link要素</a></li>
+        <li><a href="#meta要素" class="nav-link">meta要素</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="html要素">
+        <header>
+          <h2>html要素</h2>
+        </header>
+        <p>ルート要素を表す。</p>
+        <p>主な属性</p>
+        <ul>
+          <li>lang</li>
+        </ul>
+        <p>使用例</p>
+        <div class="code-snippets">
+          <code>&lt;html lang="en"&gt;&lt;/html&gt;</code>
+        </div>
+      </section>
+
+      <section class="main-section" id="head要素">
+        <header>
+          <h2>head要素</h2>
+        </header>
+        <p>そのページのメタデータを表す。</p>
+        <p>使用例</p>
+        <div class="code-snippets">
+          <code>&lt;head&gt;</code>
+          <code>&nbsp;&nbsp;&lt;title&gt;HTML文章のタイトル。&lt;/title&gt;</code>
+          <code>&lt;/head&gt;</code>
+        </div>
+      </section>
+
+      <section class="main-section" id="title要素">
+        <header>
+          <h2>title要素</h2>
+        </header>
+        <p>HTML文章のタイトルを表す。</p>
+        <p>使用例</p>
+        <div class="code-snippets">
+          <code>&lt;title&gt;HTML文章のタイトル。&lt;/title&gt;</code>
+        </div>
+      </section>
+
+      <section class="main-section" id="link要素">
+        <header>
+          <h2>link要素</h2>
+        </header>
+        <p>文章を他の外部リソースと関連付ける。</p>
+        <p>主な属性</p>
+        <ul>
+          <li>href</li>
+          <li>rel</li>
+        </ul>
+        <p>使用例</p>
+        <div class="code-snippets">
+          <code>&lt;link rel="stylesheet" href="styles.css" /&gt;</code>
+        </div>
+      </section>
+      
+      <section class="main-section" id="meta要素">
+        <header>
+          <h2>meta要素</h2>
+        </header>
+        <p>メタデータの具体的な項目を表す。</p>
+        <p>主な属性</p>
+        <ul>
+          <li>charset</li>
+          <li>name</li>
+          <li>content</li>
+        </ul>
+        <p>使用例</p>
+        <div class="code-snippets">
+          <code>&lt;meta charset="utf-8" /&gt;</code>
+          <code>&lt;meta  name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</code>
+        </div>
+        <p>※必ずしも正しいとは限りません。重要な情報は確認するようにしてください。</p>
+      </section>
+    </main>
+  </body>
+</html>
