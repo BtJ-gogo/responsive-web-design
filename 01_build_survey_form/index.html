@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <titleSurvey Form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description" class="description"><em>Request for Participation in a Survey About Ramen</em></p>
+    </header>
+    <div>
+      <form id="survey-form" method="post">
+        <fieldset>
+          <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" required class="input-control" placeholder="Enter your name" />
+          <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" required class="input-control" placeholder="Enter your Email" />
+          <label id="number-label" for="number">Age (optional)</label>
+          <input id="number" type="number" min="10" max="99" class="input-control" placeholder="Age" />
+          <p class="label">How much do you like ramen?</p>
+          <label for="very-much"><input id="very-much" type="radio" name="recommend" value="very-much" checked />Very much</label>
+          <label for="a-little"><input id="a-little" type="radio" name="recommend" value="a-little" />A little</label>
+          <label for="neutral"><input id="neutral" type="radio" name="recommend" value="neutral" />Neutral</label>
+          <label for="quite-a-bit"><input id="quite-a-bit" type="radio" name="recommend" value="quite-a-bit" />Quite a bit</label>
+          <label for="not-at-all"><input id="not-at-all" type="radio" name="recommend" value="not-at-all" />Not at all</label>    
+          <label id="dropdown-label" for="dropdown">What is your favorite type of ramen?</label>
+            <select id="dropdown" class="input-control">
+              <option>Select type of ramen</option>
+              <option value="shoyu-ramen">Shoyu ramen</option>
+              <option value="miso-ramen">Miso ramen</option>
+              <option value="shio-ramen">Shio ramen</option>
+              <option value="tonkotsu-ramen">Tonkotsu ramen</option>
+              <option value="tori-paitan">Tori paitan</option>
+              <option value="tsukemen">Tsukemen</option>
+              <option value="other">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+          <p class="label">How often do you eat ramen?</p>
+          <select id="doropdown2" class="input-control">
+            <option>Select the frequency</option>
+            <option value="once-year">About once a year</option>
+            <option value="once-six-months">About once every six months</option>
+            <option value="once-month">About once a month</option>
+            <option value="once-week">About once a week</option>
+            <option value="once-three-days">About once every three days</option>
+          </select>
+          <p class="label">Please select your favorite toppings. (check all that apply)</p>
+          <label for="Chashu"><input id="Chashu" type="checkbox" value="chash" />Chashu</label>
+          <label for="Egg"><input id="Egg" type="checkbox" value="egg" />Egg</label>
+          <label for="Menma"><input id="Menma" type="checkbox" value="menma" />Menma</label>
+          <label for="Onion"><input id="Onion" type="checkbox" value="onion" />Onion</label>
+          <label for="Negi"><input id="Negi" type="checkbox" value="negi" />Negi</label>
+          <label for="Corn"><input id="Corn" type="checkbox" value="corn" />Corn</label>
+          <label for="Narutomaki"><input id="Narutomaki" type="checkbox" value="narutomaki" />Narutomaki</label>
+          <label for="Butter"><input id="Butter" type="checkbox" value="butter" />Butter</label>
+          <label for="Bean-sprouts"><input id="Bean-sprouts" type="checkbox" value="bean-sprouts" />Bean sprouts</label>
+          <label for="Black-fungus"><input id="Black-fungus" type="checkbox" value="black-fungus" />Black fungus</label>
+          <label for="Cabbage"><input id="Cabbage" type="checkbox" value="cabbage" />Cabbage</label>
+        </fieldset>
+        <fieldset>
+          <p class="label">Please feel free to leave any comments about ramen.</p>
+          <label for="comments"><textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea></label>
+        </fieldset>
+        <fieldset>
+          <input id="submit" type="submit" value="Submit" class="submit">
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
